@@ -2,6 +2,7 @@
     background-color: #7e7e7e;
     color: #0f0f0f;
     font-family:'Times New Roman', Times, serif;
+    display: border-box;
 }
 
 .title {
@@ -10,4 +11,38 @@
 
 .title strong, a {
     color: #0f0f0f;
+}
+
+#link-container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home-list {
+    list-style: none;
+}
+
+.page-link {
+    display: inline;
+    padding: 8px;
+    border: 1px solid yellow;
+}
+
+.lasagna-link {
+    background-color: #11ee99;
+    padding: auto;
+    margin: auto 10px;
+}
+
+.flapjacks-link {
+    background-color: #ee1199;
+    padding: auto;
+    margin: auto 10px;
+}
+
+.steak-link {
+    background-color: #9911ee;
+    padding: auto;
+    margin: auto 10px;
 }
