@@ -46,3 +46,7 @@
     padding: auto;
     margin: auto 10px;
 }
+
+.lasagna-link:hover {
+    background-color: red;
+}
